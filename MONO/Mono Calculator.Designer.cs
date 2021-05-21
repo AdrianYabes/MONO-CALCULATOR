@@ -63,7 +63,7 @@ namespace MONO
             this.Seven_Button.TabIndex = 2;
             this.Seven_Button.Text = "7";
             this.Seven_Button.UseVisualStyleBackColor = false;
-            this.Seven_Button.Click += new System.EventHandler(this.button3_Click);
+            this.Seven_Button.Click += new System.EventHandler(this.Seven_Button_Click);
             // 
             // Eight_Button
             // 
@@ -77,6 +77,7 @@ namespace MONO
             this.Eight_Button.TabIndex = 3;
             this.Eight_Button.Text = "8";
             this.Eight_Button.UseVisualStyleBackColor = false;
+            this.Eight_Button.Click += new System.EventHandler(this.Eight_Button_Click);
             // 
             // Nine_Button
             // 
@@ -90,6 +91,7 @@ namespace MONO
             this.Nine_Button.TabIndex = 4;
             this.Nine_Button.Text = "9";
             this.Nine_Button.UseVisualStyleBackColor = false;
+            this.Nine_Button.Click += new System.EventHandler(this.Nine_Button_Click);
             // 
             // Four_Button
             // 
@@ -103,6 +105,7 @@ namespace MONO
             this.Four_Button.TabIndex = 5;
             this.Four_Button.Text = "4";
             this.Four_Button.UseVisualStyleBackColor = false;
+            this.Four_Button.Click += new System.EventHandler(this.Four_Button_Click);
             // 
             // Five_Button
             // 
@@ -116,6 +119,7 @@ namespace MONO
             this.Five_Button.TabIndex = 6;
             this.Five_Button.Text = "5";
             this.Five_Button.UseVisualStyleBackColor = false;
+            this.Five_Button.Click += new System.EventHandler(this.Five_Button_Click);
             // 
             // Six_Button
             // 
@@ -129,6 +133,7 @@ namespace MONO
             this.Six_Button.TabIndex = 7;
             this.Six_Button.Text = "6";
             this.Six_Button.UseVisualStyleBackColor = false;
+            this.Six_Button.Click += new System.EventHandler(this.Six_Button_Click);
             // 
             // Two_Button
             // 
@@ -142,7 +147,7 @@ namespace MONO
             this.Two_Button.TabIndex = 8;
             this.Two_Button.Text = "2";
             this.Two_Button.UseVisualStyleBackColor = false;
-            this.Two_Button.Click += new System.EventHandler(this.button8_Click);
+            this.Two_Button.Click += new System.EventHandler(this.Two_Button_Click);
             // 
             // One_Button
             // 
@@ -156,6 +161,7 @@ namespace MONO
             this.One_Button.TabIndex = 9;
             this.One_Button.Text = "1";
             this.One_Button.UseVisualStyleBackColor = false;
+            this.One_Button.Click += new System.EventHandler(this.One_Button_Click);
             // 
             // Three_Button
             // 
@@ -169,6 +175,7 @@ namespace MONO
             this.Three_Button.TabIndex = 10;
             this.Three_Button.Text = "3";
             this.Three_Button.UseVisualStyleBackColor = false;
+            this.Three_Button.Click += new System.EventHandler(this.Three_Button_Click);
             // 
             // Zero_Button
             // 
@@ -182,7 +189,7 @@ namespace MONO
             this.Zero_Button.TabIndex = 11;
             this.Zero_Button.Text = "0";
             this.Zero_Button.UseVisualStyleBackColor = false;
-            this.Zero_Button.Click += new System.EventHandler(this.button11_Click);
+            this.Zero_Button.Click += new System.EventHandler(this.Zero_Button_Click);
             // 
             // Addition_Button
             // 
@@ -197,7 +204,7 @@ namespace MONO
             this.Addition_Button.TabIndex = 12;
             this.Addition_Button.Text = "+";
             this.Addition_Button.UseVisualStyleBackColor = false;
-            this.Addition_Button.Click += new System.EventHandler(this.button12_Click);
+            this.Addition_Button.Click += new System.EventHandler(this.Addition_Button_Click);
             // 
             // Subtraction_Button
             // 
@@ -212,6 +219,7 @@ namespace MONO
             this.Subtraction_Button.TabIndex = 13;
             this.Subtraction_Button.Text = "-";
             this.Subtraction_Button.UseVisualStyleBackColor = false;
+            this.Subtraction_Button.Click += new System.EventHandler(this.Subtraction_Button_Click);
             // 
             // Multiplication_Button
             // 
@@ -226,6 +234,7 @@ namespace MONO
             this.Multiplication_Button.TabIndex = 14;
             this.Multiplication_Button.Text = "×";
             this.Multiplication_Button.UseVisualStyleBackColor = false;
+            this.Multiplication_Button.Click += new System.EventHandler(this.Multiplication_Button_Click);
             // 
             // Division_Button
             // 
@@ -240,7 +249,7 @@ namespace MONO
             this.Division_Button.TabIndex = 15;
             this.Division_Button.Text = "÷";
             this.Division_Button.UseVisualStyleBackColor = false;
-            this.Division_Button.Click += new System.EventHandler(this.button15_Click);
+            this.Division_Button.Click += new System.EventHandler(this.Division_Button_Click);
             // 
             // Equal_Button
             // 
@@ -255,6 +264,7 @@ namespace MONO
             this.Equal_Button.TabIndex = 16;
             this.Equal_Button.Text = "=";
             this.Equal_Button.UseVisualStyleBackColor = false;
+            this.Equal_Button.Click += new System.EventHandler(this.Equal_Button_Click);
             // 
             // Point_Button
             // 
@@ -269,6 +279,7 @@ namespace MONO
             this.Point_Button.TabIndex = 17;
             this.Point_Button.Text = ".";
             this.Point_Button.UseVisualStyleBackColor = false;
+            this.Point_Button.Click += new System.EventHandler(this.Point_Button_Click);
             // 
             // Pi_Button
             // 
@@ -283,6 +294,7 @@ namespace MONO
             this.Pi_Button.TabIndex = 18;
             this.Pi_Button.Text = "π ";
             this.Pi_Button.UseVisualStyleBackColor = false;
+            this.Pi_Button.Click += new System.EventHandler(this.Pi_Button_Click);
             // 
             // Clear_Button
             // 
@@ -297,18 +309,20 @@ namespace MONO
             this.Clear_Button.TabIndex = 19;
             this.Clear_Button.Text = "c";
             this.Clear_Button.UseVisualStyleBackColor = false;
-            this.Clear_Button.Click += new System.EventHandler(this.button20_Click);
+            this.Clear_Button.Click += new System.EventHandler(this.Clear_Button_Click);
             // 
             // Text_Output
             // 
             this.Text_Output.BackColor = System.Drawing.Color.DimGray;
             this.Text_Output.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Text_Output.Cursor = System.Windows.Forms.Cursors.Default;
             this.Text_Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Text_Output.Location = new System.Drawing.Point(12, 12);
             this.Text_Output.Name = "Text_Output";
             this.Text_Output.Size = new System.Drawing.Size(649, 83);
             this.Text_Output.TabIndex = 20;
             this.Text_Output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Text_Output.Click += new System.EventHandler(this.Text_Output_Screen);
             this.Text_Output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Mono
