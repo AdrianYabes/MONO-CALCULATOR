@@ -30,7 +30,6 @@ namespace MONO
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mono));
-            this.Text_Output = new System.Windows.Forms.Button();
             this.Seven_Button = new System.Windows.Forms.Button();
             this.Eight_Button = new System.Windows.Forms.Button();
             this.Nine_Button = new System.Windows.Forms.Button();
@@ -49,18 +48,8 @@ namespace MONO
             this.Point_Button = new System.Windows.Forms.Button();
             this.Pi_Button = new System.Windows.Forms.Button();
             this.Clear_Button = new System.Windows.Forms.Button();
+            this.Text_Output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // Text_Output
-            // 
-            this.Text_Output.BackColor = System.Drawing.Color.DimGray;
-            this.Text_Output.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Text_Output.Location = new System.Drawing.Point(12, 12);
-            this.Text_Output.Name = "Text_Output";
-            this.Text_Output.Size = new System.Drawing.Size(648, 86);
-            this.Text_Output.TabIndex = 0;
-            this.Text_Output.UseVisualStyleBackColor = false;
-            this.Text_Output.Click += new System.EventHandler(this.button1_Click);
             // 
             // Seven_Button
             // 
@@ -310,12 +299,25 @@ namespace MONO
             this.Clear_Button.UseVisualStyleBackColor = false;
             this.Clear_Button.Click += new System.EventHandler(this.button20_Click);
             // 
+            // Text_Output
+            // 
+            this.Text_Output.BackColor = System.Drawing.Color.DimGray;
+            this.Text_Output.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Text_Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Output.Location = new System.Drawing.Point(12, 12);
+            this.Text_Output.Name = "Text_Output";
+            this.Text_Output.Size = new System.Drawing.Size(649, 83);
+            this.Text_Output.TabIndex = 20;
+            this.Text_Output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Text_Output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Mono
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(673, 449);
+            this.Controls.Add(this.Text_Output);
             this.Controls.Add(this.Clear_Button);
             this.Controls.Add(this.Pi_Button);
             this.Controls.Add(this.Point_Button);
@@ -334,7 +336,6 @@ namespace MONO
             this.Controls.Add(this.Nine_Button);
             this.Controls.Add(this.Eight_Button);
             this.Controls.Add(this.Seven_Button);
-            this.Controls.Add(this.Text_Output);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -345,12 +346,11 @@ namespace MONO
             this.Text = "MONO CALCULATOR";
             this.Load += new System.EventHandler(this.m_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Text_Output;
         private System.Windows.Forms.Button Seven_Button;
         private System.Windows.Forms.Button Eight_Button;
         private System.Windows.Forms.Button Nine_Button;
@@ -369,6 +369,7 @@ namespace MONO
         private System.Windows.Forms.Button Point_Button;
         private System.Windows.Forms.Button Pi_Button;
         private System.Windows.Forms.Button Clear_Button;
+        private System.Windows.Forms.TextBox Text_Output;
     }
 }
 
