@@ -32,17 +32,15 @@ namespace MONO
 
         }
 
-        private void Seven_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Eight_Button_Click(object sender, EventArgs e)
         {
 
         }
+        private void Seven_Button_Click(object sender, EventArgs e)
+        {
 
-        private void Four_Button_Click(object sender, EventArgs e)
+        }
+        private void Six_Button_Click(object sender, EventArgs e)
         {
 
         }
@@ -51,23 +49,19 @@ namespace MONO
         {
 
         }
-
-        private void Six_Button_Click(object sender, EventArgs e)
+        private void Four_Button_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void One_Button_Click(object sender, EventArgs e)
+        private void Three_Button_Click(object sender, EventArgs e)
         {
 
         }
-
         private void Two_Button_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void Three_Button_Click(object sender, EventArgs e)
+        private void One_Button_Click(object sender, EventArgs e)
         {
 
         }
