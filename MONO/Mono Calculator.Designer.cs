@@ -323,6 +323,7 @@ namespace MONO
             this.Text_Output.Size = new System.Drawing.Size(649, 84);
             this.Text_Output.TabIndex = 20;
             this.Text_Output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Text_Output.Click += new System.EventHandler(this.Text_Output_Screen);
             this.Text_Output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Mono
