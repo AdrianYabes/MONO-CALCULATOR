@@ -355,10 +355,10 @@ namespace MONO
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Mono";
-            this.ShowIcon = false;
             this.Text = "MONO CALCULATOR";
             this.Load += new System.EventHandler(this.m_Load);
             this.ResumeLayout(false);
