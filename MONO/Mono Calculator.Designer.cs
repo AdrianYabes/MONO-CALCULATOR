@@ -63,7 +63,7 @@ namespace MONO
             this.Seven_Button.TabIndex = 2;
             this.Seven_Button.Text = "7";
             this.Seven_Button.UseVisualStyleBackColor = false;
-            this.Seven_Button.Click += new System.EventHandler(this.Seven_Button_Click);
+            this.Seven_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Eight_Button
             // 
@@ -77,7 +77,7 @@ namespace MONO
             this.Eight_Button.TabIndex = 3;
             this.Eight_Button.Text = "8";
             this.Eight_Button.UseVisualStyleBackColor = false;
-            this.Eight_Button.Click += new System.EventHandler(this.Eight_Button_Click);
+            this.Eight_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Nine_Button
             // 
@@ -91,7 +91,7 @@ namespace MONO
             this.Nine_Button.TabIndex = 4;
             this.Nine_Button.Text = "9";
             this.Nine_Button.UseVisualStyleBackColor = false;
-            this.Nine_Button.Click += new System.EventHandler(this.Nine_Button_Click);
+            this.Nine_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Four_Button
             // 
@@ -105,7 +105,7 @@ namespace MONO
             this.Four_Button.TabIndex = 5;
             this.Four_Button.Text = "4";
             this.Four_Button.UseVisualStyleBackColor = false;
-            this.Four_Button.Click += new System.EventHandler(this.Four_Button_Click);
+            this.Four_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Five_Button
             // 
@@ -119,7 +119,7 @@ namespace MONO
             this.Five_Button.TabIndex = 6;
             this.Five_Button.Text = "5";
             this.Five_Button.UseVisualStyleBackColor = false;
-            this.Five_Button.Click += new System.EventHandler(this.Five_Button_Click);
+            this.Five_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Six_Button
             // 
@@ -133,7 +133,7 @@ namespace MONO
             this.Six_Button.TabIndex = 7;
             this.Six_Button.Text = "6";
             this.Six_Button.UseVisualStyleBackColor = false;
-            this.Six_Button.Click += new System.EventHandler(this.Six_Button_Click);
+            this.Six_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Two_Button
             // 
@@ -147,7 +147,7 @@ namespace MONO
             this.Two_Button.TabIndex = 8;
             this.Two_Button.Text = "2";
             this.Two_Button.UseVisualStyleBackColor = false;
-            this.Two_Button.Click += new System.EventHandler(this.Two_Button_Click);
+            this.Two_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // One_Button
             // 
@@ -161,7 +161,7 @@ namespace MONO
             this.One_Button.TabIndex = 9;
             this.One_Button.Text = "1";
             this.One_Button.UseVisualStyleBackColor = false;
-            this.One_Button.Click += new System.EventHandler(this.One_Button_Click);
+            this.One_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Three_Button
             // 
@@ -175,7 +175,7 @@ namespace MONO
             this.Three_Button.TabIndex = 10;
             this.Three_Button.Text = "3";
             this.Three_Button.UseVisualStyleBackColor = false;
-            this.Three_Button.Click += new System.EventHandler(this.Three_Button_Click);
+            this.Three_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Zero_Button
             // 
@@ -189,7 +189,7 @@ namespace MONO
             this.Zero_Button.TabIndex = 11;
             this.Zero_Button.Text = "0";
             this.Zero_Button.UseVisualStyleBackColor = false;
-            this.Zero_Button.Click += new System.EventHandler(this.Zero_Button_Click);
+            this.Zero_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Addition_Button
             // 

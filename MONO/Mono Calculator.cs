@@ -27,50 +27,6 @@ namespace MONO
 
         }
 
-        private void Nine_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        
-        private void Eight_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Seven_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Six_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Five_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Four_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Three_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Two_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void One_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Zero_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Addition_Button_Click(object sender, EventArgs e)
         {
 
@@ -113,6 +69,17 @@ namespace MONO
 
         private void Text_Output_Screen(object sender, EventArgs e)
         {
+
+        }
+
+        private void NumberButton(object sender, EventArgs e)
+        {
+            if (Text_Output.Text == "0") 
+            {
+                Text_Output.Clear();
+            }
+            Button button = (Button)sender;
+            Text_Output.Text = Text_Output.Text + button.Text;
 
         }
     }
