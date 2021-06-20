@@ -54,6 +54,12 @@ namespace MONO
             
             Mono_OperationPerformed = false;
             Button button = (Button)sender;
+            if(button.Text == ".")
+            {
+                if (!Text_Output.Text.Contains("."))
+                    Text_Output.Text = Text_Output.Text + button.Text;
+            }
+            else
             Text_Output.Text = Text_Output.Text + button.Text;
 
         }

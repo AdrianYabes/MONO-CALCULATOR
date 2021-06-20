@@ -232,7 +232,7 @@ namespace MONO
             this.Multiplication_Button.Name = "Multiplication_Button";
             this.Multiplication_Button.Size = new System.Drawing.Size(125, 79);
             this.Multiplication_Button.TabIndex = 14;
-            this.Multiplication_Button.Text = "×";
+            this.Multiplication_Button.Text = "*";
             this.Multiplication_Button.UseVisualStyleBackColor = false;
             this.Multiplication_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
@@ -247,7 +247,7 @@ namespace MONO
             this.Division_Button.Name = "Division_Button";
             this.Division_Button.Size = new System.Drawing.Size(125, 79);
             this.Division_Button.TabIndex = 15;
-            this.Division_Button.Text = "÷";
+            this.Division_Button.Text = "/";
             this.Division_Button.UseVisualStyleBackColor = false;
             this.Division_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
@@ -279,7 +279,7 @@ namespace MONO
             this.Point_Button.TabIndex = 17;
             this.Point_Button.Text = ".";
             this.Point_Button.UseVisualStyleBackColor = false;
-            this.Point_Button.Click += new System.EventHandler(this.Point_Button_Click);
+            this.Point_Button.Click += new System.EventHandler(this.NumberButton);
             // 
             // Pi_Button
             // 
