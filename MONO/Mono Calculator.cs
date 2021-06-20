@@ -29,40 +29,12 @@ namespace MONO
 
         }
 
-        private void Addition_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Subtraction_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Multiplication_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Division_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Equal_Button_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Point_Button_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Clear_Button_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Pi_Button_Click(object sender, EventArgs e)
         {
@@ -90,6 +62,15 @@ namespace MONO
             Button button = (Button)sender;
             Mono_Operation = button.Text;
             Mono_Result = Double.Parse(Text_Output.Text);
+
+        }
+        private void Clear_Button_Click(object sender, EventArgs e)
+        {
+            Text_Output.Text = "0";
+            Mono_Result = 0;
+        }
+        private void Equal_Button_Click(object sender, EventArgs e)
+        {
 
         }
     }
