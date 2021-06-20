@@ -12,6 +12,8 @@ namespace MONO
 {
     public partial class Mono : Form
     {
+        Double Mono_Result = 0;
+        String Mono_Operation = "";
         public Mono()
         {
             InitializeComponent();
@@ -80,6 +82,14 @@ namespace MONO
             }
             Button button = (Button)sender;
             Text_Output.Text = Text_Output.Text + button.Text;
+
+        }
+
+        private void Operator_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            Mono_Operation = button.Text;
+            Mono_Result = Double.Parse(Text_Output.Text);
 
         }
     }

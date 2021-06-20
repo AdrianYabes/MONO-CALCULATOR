@@ -204,7 +204,7 @@ namespace MONO
             this.Addition_Button.TabIndex = 12;
             this.Addition_Button.Text = "+";
             this.Addition_Button.UseVisualStyleBackColor = false;
-            this.Addition_Button.Click += new System.EventHandler(this.Addition_Button_Click);
+            this.Addition_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
             // Subtraction_Button
             // 
@@ -219,7 +219,7 @@ namespace MONO
             this.Subtraction_Button.TabIndex = 13;
             this.Subtraction_Button.Text = "-";
             this.Subtraction_Button.UseVisualStyleBackColor = false;
-            this.Subtraction_Button.Click += new System.EventHandler(this.Subtraction_Button_Click);
+            this.Subtraction_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
             // Multiplication_Button
             // 
@@ -234,7 +234,7 @@ namespace MONO
             this.Multiplication_Button.TabIndex = 14;
             this.Multiplication_Button.Text = "×";
             this.Multiplication_Button.UseVisualStyleBackColor = false;
-            this.Multiplication_Button.Click += new System.EventHandler(this.Multiplication_Button_Click);
+            this.Multiplication_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
             // Division_Button
             // 
@@ -249,7 +249,7 @@ namespace MONO
             this.Division_Button.TabIndex = 15;
             this.Division_Button.Text = "÷";
             this.Division_Button.UseVisualStyleBackColor = false;
-            this.Division_Button.Click += new System.EventHandler(this.Division_Button_Click);
+            this.Division_Button.Click += new System.EventHandler(this.Operator_Click);
             // 
             // Equal_Button
             // 
