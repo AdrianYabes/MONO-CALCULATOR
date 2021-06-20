@@ -14,6 +14,7 @@ namespace MONO
     {
         Double Mono_Result = 0;
         String Mono_Operation = "";
+        bool Mono_OperationPerformed = false;
         public Mono()
         {
             InitializeComponent();
@@ -48,10 +49,10 @@ namespace MONO
 
         private void NumberButton(object sender, EventArgs e)
         {
-            if (Text_Output.Text == "0") 
-            {
+            if ((Text_Output.Text == "0") || Mono_OperationPerformed) 
                 Text_Output.Clear();
-            }
+            
+            Mono_OperationPerformed = false;
             Button button = (Button)sender;
             Text_Output.Text = Text_Output.Text + button.Text;
 
@@ -62,6 +63,7 @@ namespace MONO
             Button button = (Button)sender;
             Mono_Operation = button.Text;
             Mono_Result = Double.Parse(Text_Output.Text);
+            Mono_OperationPerformed = true;
 
         }
         private void Clear_Button_Click(object sender, EventArgs e)
@@ -71,7 +73,23 @@ namespace MONO
         }
         private void Equal_Button_Click(object sender, EventArgs e)
         {
-
+            switch(Mono_Operation)
+            {
+                case "+":
+                    Text_Output.Text = (Mono_Result + Double.Parse(Text_Output.Text)).ToString();
+                    break;
+                case "-":
+                    Text_Output.Text = (Mono_Result - Double.Parse(Text_Output.Text)).ToString();
+                    break;
+                case "*":
+                    Text_Output.Text = (Mono_Result * Double.Parse(Text_Output.Text)).ToString();
+                    break;
+                case "/":
+                    Text_Output.Text = (Mono_Result / Double.Parse(Text_Output.Text)).ToString();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
