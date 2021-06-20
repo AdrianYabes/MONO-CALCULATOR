@@ -15,6 +15,7 @@ namespace MONO
         Double Mono_Result = 0;
         String Mono_Operation = "";
         bool Mono_OperationPerformed = false;
+
         public Mono()
         {
             InitializeComponent();

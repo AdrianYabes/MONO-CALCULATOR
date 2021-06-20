@@ -55,7 +55,7 @@ namespace MONO
             // 
             this.Seven_Button.BackColor = System.Drawing.Color.DimGray;
             this.Seven_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Seven_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seven_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Seven_Button.ForeColor = System.Drawing.Color.Black;
             this.Seven_Button.Location = new System.Drawing.Point(143, 105);
             this.Seven_Button.Name = "Seven_Button";
@@ -69,7 +69,7 @@ namespace MONO
             // 
             this.Eight_Button.BackColor = System.Drawing.Color.DimGray;
             this.Eight_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Eight_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Eight_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Eight_Button.ForeColor = System.Drawing.Color.Black;
             this.Eight_Button.Location = new System.Drawing.Point(274, 105);
             this.Eight_Button.Name = "Eight_Button";
@@ -83,7 +83,7 @@ namespace MONO
             // 
             this.Nine_Button.BackColor = System.Drawing.Color.DimGray;
             this.Nine_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Nine_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nine_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nine_Button.ForeColor = System.Drawing.Color.Black;
             this.Nine_Button.Location = new System.Drawing.Point(405, 105);
             this.Nine_Button.Name = "Nine_Button";
@@ -97,7 +97,7 @@ namespace MONO
             // 
             this.Four_Button.BackColor = System.Drawing.Color.DimGray;
             this.Four_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Four_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Four_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Four_Button.ForeColor = System.Drawing.Color.Black;
             this.Four_Button.Location = new System.Drawing.Point(143, 189);
             this.Four_Button.Name = "Four_Button";
@@ -111,7 +111,7 @@ namespace MONO
             // 
             this.Five_Button.BackColor = System.Drawing.Color.DimGray;
             this.Five_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Five_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Five_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Five_Button.ForeColor = System.Drawing.Color.Black;
             this.Five_Button.Location = new System.Drawing.Point(274, 189);
             this.Five_Button.Name = "Five_Button";
@@ -125,7 +125,7 @@ namespace MONO
             // 
             this.Six_Button.BackColor = System.Drawing.Color.DimGray;
             this.Six_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Six_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Six_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Six_Button.ForeColor = System.Drawing.Color.Black;
             this.Six_Button.Location = new System.Drawing.Point(405, 189);
             this.Six_Button.Name = "Six_Button";
@@ -139,7 +139,7 @@ namespace MONO
             // 
             this.Two_Button.BackColor = System.Drawing.Color.DimGray;
             this.Two_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Two_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Two_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Two_Button.ForeColor = System.Drawing.Color.Black;
             this.Two_Button.Location = new System.Drawing.Point(274, 274);
             this.Two_Button.Name = "Two_Button";
@@ -153,7 +153,7 @@ namespace MONO
             // 
             this.One_Button.BackColor = System.Drawing.Color.DimGray;
             this.One_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.One_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.One_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.One_Button.ForeColor = System.Drawing.Color.Black;
             this.One_Button.Location = new System.Drawing.Point(143, 274);
             this.One_Button.Name = "One_Button";
@@ -167,7 +167,7 @@ namespace MONO
             // 
             this.Three_Button.BackColor = System.Drawing.Color.DimGray;
             this.Three_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Three_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Three_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Three_Button.ForeColor = System.Drawing.Color.Black;
             this.Three_Button.Location = new System.Drawing.Point(405, 274);
             this.Three_Button.Name = "Three_Button";
@@ -181,7 +181,7 @@ namespace MONO
             // 
             this.Zero_Button.BackColor = System.Drawing.Color.DimGray;
             this.Zero_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Zero_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zero_Button.ForeColor = System.Drawing.Color.Black;
             this.Zero_Button.Location = new System.Drawing.Point(274, 359);
             this.Zero_Button.Name = "Zero_Button";
@@ -196,7 +196,7 @@ namespace MONO
             this.Addition_Button.BackColor = System.Drawing.Color.Gray;
             this.Addition_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Addition_Button.BackgroundImage")));
             this.Addition_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Addition_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Addition_Button.Font = new System.Drawing.Font("Algerian", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Addition_Button.ForeColor = System.Drawing.Color.White;
             this.Addition_Button.Location = new System.Drawing.Point(536, 105);
             this.Addition_Button.Name = "Addition_Button";
@@ -211,7 +211,7 @@ namespace MONO
             this.Subtraction_Button.BackColor = System.Drawing.Color.Gray;
             this.Subtraction_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Subtraction_Button.BackgroundImage")));
             this.Subtraction_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Subtraction_Button.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Subtraction_Button.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Subtraction_Button.ForeColor = System.Drawing.Color.White;
             this.Subtraction_Button.Location = new System.Drawing.Point(536, 189);
             this.Subtraction_Button.Name = "Subtraction_Button";
@@ -226,7 +226,7 @@ namespace MONO
             this.Multiplication_Button.BackColor = System.Drawing.Color.Gray;
             this.Multiplication_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Multiplication_Button.BackgroundImage")));
             this.Multiplication_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Multiplication_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Multiplication_Button.Font = new System.Drawing.Font("Algerian", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Multiplication_Button.ForeColor = System.Drawing.Color.White;
             this.Multiplication_Button.Location = new System.Drawing.Point(536, 274);
             this.Multiplication_Button.Name = "Multiplication_Button";
@@ -241,7 +241,7 @@ namespace MONO
             this.Division_Button.BackColor = System.Drawing.Color.Gray;
             this.Division_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Division_Button.BackgroundImage")));
             this.Division_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Division_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Division_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Division_Button.ForeColor = System.Drawing.Color.White;
             this.Division_Button.Location = new System.Drawing.Point(536, 359);
             this.Division_Button.Name = "Division_Button";
@@ -256,7 +256,7 @@ namespace MONO
             this.Equal_Button.BackColor = System.Drawing.Color.Gray;
             this.Equal_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Equal_Button.BackgroundImage")));
             this.Equal_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Equal_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Equal_Button.Font = new System.Drawing.Font("Algerian", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Equal_Button.ForeColor = System.Drawing.Color.White;
             this.Equal_Button.Location = new System.Drawing.Point(405, 359);
             this.Equal_Button.Name = "Equal_Button";
@@ -271,7 +271,7 @@ namespace MONO
             this.Point_Button.BackColor = System.Drawing.Color.Gray;
             this.Point_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Point_Button.BackgroundImage")));
             this.Point_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Point_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Point_Button.Font = new System.Drawing.Font("Algerian", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Point_Button.ForeColor = System.Drawing.Color.White;
             this.Point_Button.Location = new System.Drawing.Point(143, 359);
             this.Point_Button.Name = "Point_Button";
