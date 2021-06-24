@@ -54,6 +54,7 @@ namespace MONO
             // Seven_Button
             // 
             this.Seven_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Seven_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Seven_Button.BackgroundImage")));
             this.Seven_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Seven_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Seven_Button.ForeColor = System.Drawing.Color.Black;
@@ -68,6 +69,7 @@ namespace MONO
             // Eight_Button
             // 
             this.Eight_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Eight_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Eight_Button.BackgroundImage")));
             this.Eight_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Eight_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Eight_Button.ForeColor = System.Drawing.Color.Black;
@@ -82,6 +84,7 @@ namespace MONO
             // Nine_Button
             // 
             this.Nine_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Nine_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Nine_Button.BackgroundImage")));
             this.Nine_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Nine_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nine_Button.ForeColor = System.Drawing.Color.Black;
@@ -96,6 +99,7 @@ namespace MONO
             // Four_Button
             // 
             this.Four_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Four_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Four_Button.BackgroundImage")));
             this.Four_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Four_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Four_Button.ForeColor = System.Drawing.Color.Black;
@@ -110,6 +114,7 @@ namespace MONO
             // Five_Button
             // 
             this.Five_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Five_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Five_Button.BackgroundImage")));
             this.Five_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Five_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Five_Button.ForeColor = System.Drawing.Color.Black;
@@ -124,6 +129,7 @@ namespace MONO
             // Six_Button
             // 
             this.Six_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Six_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Six_Button.BackgroundImage")));
             this.Six_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Six_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Six_Button.ForeColor = System.Drawing.Color.Black;
@@ -138,6 +144,7 @@ namespace MONO
             // Two_Button
             // 
             this.Two_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Two_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Two_Button.BackgroundImage")));
             this.Two_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Two_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Two_Button.ForeColor = System.Drawing.Color.Black;
@@ -152,6 +159,7 @@ namespace MONO
             // One_Button
             // 
             this.One_Button.BackColor = System.Drawing.Color.DimGray;
+            this.One_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("One_Button.BackgroundImage")));
             this.One_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.One_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.One_Button.ForeColor = System.Drawing.Color.Black;
@@ -166,6 +174,7 @@ namespace MONO
             // Three_Button
             // 
             this.Three_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Three_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Three_Button.BackgroundImage")));
             this.Three_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Three_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Three_Button.ForeColor = System.Drawing.Color.Black;
@@ -180,6 +189,7 @@ namespace MONO
             // Zero_Button
             // 
             this.Zero_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Zero_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Zero_Button.BackgroundImage")));
             this.Zero_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Zero_Button.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Zero_Button.ForeColor = System.Drawing.Color.Black;
@@ -313,11 +323,11 @@ namespace MONO
             // 
             // Text_Output
             // 
-            this.Text_Output.BackColor = System.Drawing.Color.DimGray;
+            this.Text_Output.BackColor = System.Drawing.SystemColors.GrayText;
             this.Text_Output.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Text_Output.Cursor = System.Windows.Forms.Cursors.Default;
             this.Text_Output.Font = new System.Drawing.Font("Algerian", 34.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Output.ForeColor = System.Drawing.Color.White;
+            this.Text_Output.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Text_Output.Location = new System.Drawing.Point(12, 12);
             this.Text_Output.Name = "Text_Output";
             this.Text_Output.Size = new System.Drawing.Size(649, 84);
@@ -330,6 +340,7 @@ namespace MONO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(673, 449);
@@ -353,7 +364,7 @@ namespace MONO
             this.Controls.Add(this.Eight_Button);
             this.Controls.Add(this.Seven_Button);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Silver;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
