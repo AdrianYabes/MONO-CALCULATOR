@@ -55,7 +55,10 @@ namespace MONO
             
             Mono_OperationPerformed = false;
             Button button = (Button)sender;
-            if(button.Text == ".")
+
+            //function needed for the single used of dot button (.)
+
+            if (button.Text == ".")  
             {
                 if (!Text_Output.Text.Contains("."))
                     Text_Output.Text = Text_Output.Text + button.Text;
@@ -66,6 +69,11 @@ namespace MONO
         }
 
         private void Operator_Click(object sender, EventArgs e)
+
+        //Parse is used to Converts the string representation of a number
+        //in a specified style and culture-specific format to its double-precision 
+        //floating-point number equivalent.
+
         {
             Button button = (Button)sender;
             Mono_Operation = button.Text;
@@ -74,11 +82,16 @@ namespace MONO
 
         }
         private void Clear_Button_Click(object sender, EventArgs e)
+
+            //Function for C button
+
         {
             Text_Output.Text = "0";
             Mono_Result = 0;
         }
         private void Equal_Button_Click(object sender, EventArgs e)
+
+            //Function for operation buttons 
         {
             switch(Mono_Operation)
             {
