@@ -311,7 +311,7 @@ namespace MONO
             this.Clear_Button.BackColor = System.Drawing.Color.Gray;
             this.Clear_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Clear_Button.BackgroundImage")));
             this.Clear_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Clear_Button.Font = new System.Drawing.Font("Algerian", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clear_Button.ForeColor = System.Drawing.Color.White;
             this.Clear_Button.Location = new System.Drawing.Point(12, 274);
             this.Clear_Button.Name = "Clear_Button";
