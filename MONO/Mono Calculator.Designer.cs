@@ -294,7 +294,7 @@ namespace MONO
             this.Pi_Button.TabIndex = 18;
             this.Pi_Button.Text = "CE";
             this.Pi_Button.UseVisualStyleBackColor = false;
-            this.Pi_Button.Click += new System.EventHandler(this.Pi_Button_Click);
+            this.Pi_Button.Click += new System.EventHandler(this.CE_Button_Click);
             // 
             // Clear_Button
             // 

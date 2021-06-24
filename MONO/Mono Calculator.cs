@@ -26,28 +26,6 @@ namespace MONO
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void Point_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void Pi_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Text_Output_Screen(object sender, EventArgs e)
-        {
-
-        }
-
         private void NumberButton(object sender, EventArgs e)
         {
             if ((Text_Output.Text == "0") || Mono_OperationPerformed) 
@@ -76,10 +54,23 @@ namespace MONO
 
         {
             Button button = (Button)sender;
-            Mono_Operation = button.Text;
-            Mono_Result = Double.Parse(Text_Output.Text);
-            Mono_OperationPerformed = true;
 
+        //This function is used to directly display the answer for series of operation without clicking the (=) button.
+        //Example: 5 + 5 + (will automatically display the answer for 5 + 5 before clicking new operations
+
+            if (Mono_Result != 0)
+            {
+                Equal_Button.PerformClick();
+                Mono_Operation = button.Text;
+                Mono_OperationPerformed = true;
+            }
+
+            else
+            {
+                Mono_Operation = button.Text;
+                Mono_Result = Double.Parse(Text_Output.Text);
+                Mono_OperationPerformed = true;
+            }
         }
         private void Clear_Button_Click(object sender, EventArgs e)
 
@@ -93,7 +84,7 @@ namespace MONO
 
             //Function for operation buttons 
         {
-            switch(Mono_Operation)
+             switch(Mono_Operation)
             {
                 case "+":
                     Text_Output.Text = (Mono_Result + Double.Parse(Text_Output.Text)).ToString();
@@ -111,5 +102,21 @@ namespace MONO
                     break;
             }
         }
+
+        private void CE_Button_Click(object sender, EventArgs e)
+            //function code for CE button    
+        {
+            Text_Output.Text = "0";
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Output_Screen(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
