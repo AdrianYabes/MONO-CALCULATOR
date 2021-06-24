@@ -292,7 +292,7 @@ namespace MONO
             this.Pi_Button.Name = "Pi_Button";
             this.Pi_Button.Size = new System.Drawing.Size(125, 164);
             this.Pi_Button.TabIndex = 18;
-            this.Pi_Button.Text = "π ";
+            this.Pi_Button.Text = "CE";
             this.Pi_Button.UseVisualStyleBackColor = false;
             this.Pi_Button.Click += new System.EventHandler(this.Pi_Button_Click);
             // 
