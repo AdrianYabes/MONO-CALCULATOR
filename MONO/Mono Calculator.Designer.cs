@@ -46,7 +46,7 @@ namespace MONO
             this.Division_Button = new System.Windows.Forms.Button();
             this.Equal_Button = new System.Windows.Forms.Button();
             this.Point_Button = new System.Windows.Forms.Button();
-            this.Pi_Button = new System.Windows.Forms.Button();
+            this.CE_Button = new System.Windows.Forms.Button();
             this.Clear_Button = new System.Windows.Forms.Button();
             this.Text_Output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -291,20 +291,20 @@ namespace MONO
             this.Point_Button.UseVisualStyleBackColor = false;
             this.Point_Button.Click += new System.EventHandler(this.NumberButton);
             // 
-            // Pi_Button
+            // CE_Button
             // 
-            this.Pi_Button.BackColor = System.Drawing.Color.Gray;
-            this.Pi_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pi_Button.BackgroundImage")));
-            this.Pi_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Pi_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pi_Button.ForeColor = System.Drawing.Color.White;
-            this.Pi_Button.Location = new System.Drawing.Point(12, 105);
-            this.Pi_Button.Name = "Pi_Button";
-            this.Pi_Button.Size = new System.Drawing.Size(125, 164);
-            this.Pi_Button.TabIndex = 18;
-            this.Pi_Button.Text = "CE";
-            this.Pi_Button.UseVisualStyleBackColor = false;
-            this.Pi_Button.Click += new System.EventHandler(this.CE_Button_Click);
+            this.CE_Button.BackColor = System.Drawing.Color.Gray;
+            this.CE_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CE_Button.BackgroundImage")));
+            this.CE_Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CE_Button.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CE_Button.ForeColor = System.Drawing.Color.White;
+            this.CE_Button.Location = new System.Drawing.Point(12, 105);
+            this.CE_Button.Name = "CE_Button";
+            this.CE_Button.Size = new System.Drawing.Size(125, 164);
+            this.CE_Button.TabIndex = 18;
+            this.CE_Button.Text = "CE";
+            this.CE_Button.UseVisualStyleBackColor = false;
+            this.CE_Button.Click += new System.EventHandler(this.CE_Button_Click);
             // 
             // Clear_Button
             // 
@@ -346,7 +346,7 @@ namespace MONO
             this.ClientSize = new System.Drawing.Size(673, 449);
             this.Controls.Add(this.Text_Output);
             this.Controls.Add(this.Clear_Button);
-            this.Controls.Add(this.Pi_Button);
+            this.Controls.Add(this.CE_Button);
             this.Controls.Add(this.Point_Button);
             this.Controls.Add(this.Equal_Button);
             this.Controls.Add(this.Division_Button);
@@ -394,7 +394,7 @@ namespace MONO
         private System.Windows.Forms.Button Division_Button;
         private System.Windows.Forms.Button Equal_Button;
         private System.Windows.Forms.Button Point_Button;
-        private System.Windows.Forms.Button Pi_Button;
+        private System.Windows.Forms.Button CE_Button;
         private System.Windows.Forms.Button Clear_Button;
         private System.Windows.Forms.TextBox Text_Output;
     }
