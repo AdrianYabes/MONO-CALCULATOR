@@ -43,7 +43,6 @@ namespace MONO
             }
             else
             Text_Output.Text = Text_Output.Text + button.Text;
-
         }
 
         private void Operator_Click(object sender, EventArgs e)
@@ -64,7 +63,6 @@ namespace MONO
                 Mono_Operation = button.Text;
                 Mono_OperationPerformed = true;
             }
-
             else
             {
                 Mono_Operation = button.Text;
@@ -73,9 +71,7 @@ namespace MONO
             }
         }
         private void Clear_Button_Click(object sender, EventArgs e)
-
             //Function for C button
-
         {
             Text_Output.Text = "0";
             Mono_Result = 0;
@@ -102,7 +98,6 @@ namespace MONO
                     break;
             }
         }
-
         private void CE_Button_Click(object sender, EventArgs e)
             //function code for CE button    
         {
@@ -112,7 +107,6 @@ namespace MONO
         {
 
         }
-
         private void Text_Output_Screen(object sender, EventArgs e)
         {
 
