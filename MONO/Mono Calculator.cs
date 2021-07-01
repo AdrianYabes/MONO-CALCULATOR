@@ -12,9 +12,7 @@ namespace MONO
 {
     public partial class Mono : Form
     {
-
         OperatorClass Calculator = new OperatorClass();
-
 
         public Mono()
         {
@@ -22,7 +20,6 @@ namespace MONO
         }
         private void m_Load(object sender, EventArgs e)
         {
-
         }
         private void One_Button_Click(object sender, EventArgs e)
         {
@@ -91,15 +88,27 @@ namespace MONO
         private void Equal_Button_Click(object sender, EventArgs e)
         {
             Calculator.Num2 = Text_Output.Text;
-            if (Calculator.Mono_Operation.Equals("+"))
-                Calculator.Addition();
-            if (Calculator.Mono_Operation.Equals("-"))
-                Calculator.Subtraction();
-            if (Calculator.Mono_Operation.Equals("*"))
-                Calculator.Multiplication();
-            if (Calculator.Mono_Operation.Equals("/"))
-                Calculator.Division();
-            Text_Output.Text = Calculator.Num2;
+            switch (Calculator.Mono_Operation)
+            {
+                case "+":
+                    Calculator.Addition();
+                    Text_Output.Text = Calculator.Num2;
+                    break;
+                case "-":
+                    Calculator.Subtraction();
+                    Text_Output.Text = Calculator.Num2;
+                    break;
+                case "*":
+                    Calculator.Multiplication();
+                    Text_Output.Text = Calculator.Num2;
+                    break;
+                case "/":
+                    Calculator.Division();
+                    Text_Output.Text = Calculator.Num2;
+                    break;
+                default:
+                    break;
+            }
         }
         private void Append_Num(string Number)
         {
@@ -111,7 +120,6 @@ namespace MONO
             Text_Output.Text += Number;
             Calculator.Mono_OperationPerformed = false;
         }
-
         private void Text_Output_TextChanged(object sender, EventArgs e)
         {
         }
@@ -122,6 +130,7 @@ namespace MONO
         private void CE_Button_Click(object sender, EventArgs e)
         {
             Text_Output.Text = "";
+            
         }
     }
 }
