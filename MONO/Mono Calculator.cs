@@ -13,13 +13,9 @@ namespace MONO
     public partial class Mono : Form
     {
         OperatorClass Calculator = new OperatorClass();
-
         public Mono()
         {
             InitializeComponent();
-        }
-        private void m_Load(object sender, EventArgs e)
-        {
         }
         private void One_Button_Click(object sender, EventArgs e)
         {
@@ -130,7 +126,6 @@ namespace MONO
         private void CE_Button_Click(object sender, EventArgs e)
         {
             Text_Output.Text = "";
-            
         }
     }
 }

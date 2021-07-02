@@ -370,7 +370,6 @@ namespace MONO
             this.MinimizeBox = false;
             this.Name = "Mono";
             this.Text = "MONO CALCULATOR";
-            this.Load += new System.EventHandler(this.m_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
