@@ -125,7 +125,14 @@ namespace MONO
         }
         private void CE_Button_Click(object sender, EventArgs e)
         {
-            Text_Output.Text = "";
+            if (Text_Output.Text.Length <= 1)
+            {
+                Text_Output.Text = "0";
+            }
+            else
+            {
+                Text_Output.Text = Text_Output.Text.Remove(Text_Output.Text.Length - 1);
+            }
         }
     }
 }
