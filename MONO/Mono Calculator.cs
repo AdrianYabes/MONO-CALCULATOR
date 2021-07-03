@@ -13,6 +13,7 @@ namespace MONO
     public partial class Mono : Form
     {
         OperatorClass Calculator = new OperatorClass();
+        OperatorClass2 Calculator2 = new OperatorClass2();
         public Mono()
         {
             InitializeComponent();
